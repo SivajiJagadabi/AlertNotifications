@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list-alert-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 8px;
+  width: 600px;
+
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.notification {
+  display: flex;
+}
+
+@media screen and (max-width: 776px) {
+  .list-alert-item {
+    width: 350px;
+  }
+}
+
+.close-icon {
+  width: 25px;
+  height: 25px;
+  color: #0f172a;
+}

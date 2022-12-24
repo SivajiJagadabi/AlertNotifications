@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.alert-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.response-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.main-heading {
+  color: black;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.icon-container {
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.success {
+  color: #2dca73;
+}
+.alert-status {
+  margin-bottom: 0px;
+  color: #2dca73;
+  font-size: 25px;
+}
+
+.alert-description {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.alert-view-container {
+  width: 80%;
+}
